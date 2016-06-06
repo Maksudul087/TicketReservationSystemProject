@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticket.reservation.system.FXMLDocumentController">
+   <children>
+      <TitledPane prefHeight="400.0" prefWidth="600.0" text=" Ticket Reservation System">
+         <content>
+            <GridPane prefHeight="394.0" prefWidth="598.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="383.0" minWidth="10.0" prefWidth="317.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="305.0" minWidth="10.0" prefWidth="257.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <GridPane GridPane.rowIndex="2">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.0" minWidth="10.0" prefWidth="317.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.0" minWidth="0.0" prefWidth="0.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" minWidth="0.0" prefWidth="0.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="sign_up_btn" mnemonicParsing="false" onAction="#sign_up_btn_clicked" prefHeight="31.0" prefWidth="245.0" text="Sign Up" GridPane.rowIndex="1" />
+                        <Label fx:id="sign_up_lebel" prefHeight="21.0" prefWidth="322.0" text="If u r not a member, please sign up !" />
+                     </children>
+                  </GridPane>
+                  <GridPane GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="257.0" minWidth="10.0" prefWidth="257.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="122.0" minWidth="0.0" prefWidth="0.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="56.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="sign_in_btn" mnemonicParsing="false" onAction="#sign_in_btn_clicked" prefHeight="31.0" prefWidth="246.0" text="Sign In" GridPane.rowIndex="1" />
+                        <Label fx:id="invalid_sign_in" prefHeight="21.0" prefWidth="341.0" />
+                     </children>
+                  </GridPane>
+                  <Label fx:id="username_lebel" text="User Name :" />
+                  <Label fx:id="password_lebel" text="Password :" GridPane.rowIndex="1" />
+                  <TextField fx:id="username_field" GridPane.columnIndex="1" />
+                  <PasswordField fx:id="password_field" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+         </content>
+      </TitledPane>
+   </children>
+</AnchorPane>

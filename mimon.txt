@@ -1,0 +1,41 @@
+mimon
+Sm.01712965226
+Sm.mimon96@gmail.com
++8801776172787
+190900
+
+
+                    MOVIE                  
+d2
+t2
+17
+                   BUS                 
+Sarker Travels
+d2p
+d2
+t2
+1
+                    MOVIE                  
+d2
+t1
+16
+                    TRAIN                  
+i2d
+d1
+2
+                   BUS                 
+Sarker Travels
+d2p
+d2
+t2
+3
+                   BUS                 
+Pabna Express
+p2d
+d1
+t1
+4
+                    MOVIE                  
+d1
+t1
+9
