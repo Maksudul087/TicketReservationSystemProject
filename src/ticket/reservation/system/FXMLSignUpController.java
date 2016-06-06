@@ -77,6 +77,7 @@ public class FXMLSignUpController implements Initializable {
             outToServer.writeBytes(phn+'\n');
             outToServer.writeBytes(credit+'\n');
             outToServer.writeBytes(pass+'\n');
+            //fhfh
         } catch (IOException e) {
             e.printStackTrace();
         }
